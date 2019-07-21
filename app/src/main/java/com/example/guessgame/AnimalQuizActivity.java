@@ -222,6 +222,7 @@ public class AnimalQuizActivity extends AppCompatActivity {
                 myDialog.show();
                 d_name=myDialog.findViewById(R.id.dialog_name);
                 d_score=myDialog.findViewById(R.id.dialog_score);
+                //this is the portion of the dialog name and score
            }
            else {
                 timer_tv.setVisibility(View.VISIBLE);
